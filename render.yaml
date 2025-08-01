@@ -2,7 +2,7 @@ services:
   - type: web
     name: counter-app
     env: static
-    buildCommand: npm install && npm run build:render
+    buildCommand: npm ci && npm run build
     staticPublishPath: ./build
     envVars:
       - key: NODE_OPTIONS
