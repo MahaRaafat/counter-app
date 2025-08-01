@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts",
     "build": "react-scripts build",
-    "build:local": "react-scripts --openssl-legacy-provider build",
+    "build:local": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
